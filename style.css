@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+*{
+     font-family: "poppins",sans-serif;
+     margin:0;
+     padding:0;
+     box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #36454F;  
+}
+.profile-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 350px;
+    width:100%;
+    background-color: #191919;
+    border-radius: 25px;
+    padding: 25px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+.image{
+    position: relative;
+    height: 150px;
+    width:150px;
+    border-radius: 50%;
+    background-color: #4070f4;
+    padding:3px;
+    margin-bottom: 10px;
+}
+.image .prof-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+.profile-card .personal-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.personal-data .name{
+    font-size: 20px;
+    font-weight: 500;
+    color: antiquewhite;
+}
+.personal-data .interest{
+    font-size: 13px;
+    font-weight: 400;
+    color: antiquewhite;
+}
+.profile-card .media{
+    display: flex;
+    align-items: center;
+}
+.media .link{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+
+    margin: 0 8px;
+    background-color: #4070f4;
+    text-decoration: none;
+
+}
